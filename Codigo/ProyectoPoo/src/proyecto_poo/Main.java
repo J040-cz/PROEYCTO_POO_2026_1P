@@ -19,7 +19,7 @@ public class Main {
         equipoAzul.agregarPersonaje(new Mistico("Mistico Azul", 80, 35, 3));
 
         int ronda = 1;
-        int maxRondas = 5;
+        int maxRondas = 15;
         while (!equipoRojo.estaDerrotado()
                 && !equipoAzul.estaDerrotado()
                 && ronda <= maxRondas) {
